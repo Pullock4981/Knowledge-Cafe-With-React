@@ -1,14 +1,15 @@
 
 import "./App.css";
+import Blogs from "./Components/Blogs/Blogs";
+import Header from "./Components/Header";
 
 function App() {
   
 
   return (
     <>
-      <div className="mt-5 ml-8">
-        <h1 className="text-2xl font-bold">Knowlagde Cafe</h1>
-      </div>
+      <Header></Header>
+      <Blogs></Blogs>
     </>
   );
 }
