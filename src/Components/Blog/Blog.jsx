@@ -3,8 +3,9 @@
 import { CiBookmark } from "react-icons/ci";
 // import { FaBeer } from "react-icons/fa";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddBookmark, handleMarkAsRead }) => {
   const {
+    id,
     title,
     cover,
     author,
@@ -28,9 +29,10 @@ const Blog = ({ blog }) => {
             <p>{posted_date}</p>
           </div>
         </div>
+        {/* bookmark */}
         <div className="flex justify-center items-center gap-2">
           <span>{reading_time}min read</span>
-          <button><CiBookmark></CiBookmark></button>
+          <button onClick={()=>handleAddBookmark(blog)}><CiBookmark></CiBookmark></button>
         </div>
       </div>
       {/* blog title */}
@@ -40,8 +42,8 @@ const Blog = ({ blog }) => {
             hashtags.map(hash => <span><a href=""> #{hash}</a></span>)
         }
       </p>
-      {/* bookmark */}
-      <p className="text-blue-700 underline cursor-pointer mt-3">Mark as read</p>
+      {/* mark as read */}
+      <button onClick={() => handleMarkAsRead(id, reading_time)} className="text-blue-700 underline cursor-pointer mt-3">Mark as read</button>
     </div>
   );
 };
