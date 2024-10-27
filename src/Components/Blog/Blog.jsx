@@ -17,16 +17,16 @@ const Blog = ({ blog, handleAddBookmark, handleMarkAsRead }) => {
   return (
     <div className="mt-4 border-b-2 pb-4 pt-8">
         {/* cover img */}
-      <img className="w-full h-80 rounded-md" src={cover} alt="" />
+      <img className="w-full md:h-80 rounded-md" src={cover} alt="" />
       {/* author info */}
       <div className="flex justify-between items-center mt-6">
         <div className="flex gap-3 items-center">
           <div>
-            <img className="w-16" src={author_img} alt="" />
+            <img className="w-12 md:w-16" src={author_img} alt="" />
           </div>
           <div>
-            <h2 className="text-xl font-extrabold">{author}</h2>
-            <p>{posted_date}</p>
+            <h2 className="text-lg md:text-xl font-extrabold">{author}</h2>
+            <p className="text-sm md:text-base">{posted_date}</p>
           </div>
         </div>
         {/* bookmark */}
@@ -36,7 +36,7 @@ const Blog = ({ blog, handleAddBookmark, handleMarkAsRead }) => {
         </div>
       </div>
       {/* blog title */}
-      <h4 className="text-3xl md:text-4xl font-bold mt-6">{title}</h4>
+      <h4 className="text-2xl md:text-4xl font-bold mt-6">{title}</h4>
       <p className="mt-4">
         {
             hashtags.map(hash => <span><a href=""> #{hash}</a></span>)
