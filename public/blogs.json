@@ -1,52 +1,42 @@
 [
     {
         "id": 1,
-        "cover": "https://example.com/image1.jpg",
-        "title": "Exploring the Future of AI",
+        "cover": "https://i.ibb.co.com/3d8x2kj/1.jpg",
+        "title": "How to get your first job as a self-taught programmer",
         "author": "jane doe",
-        "author_img": "https://example.com/author1.jpg",
+        "author_img": "https://i.ibb.co.com/VpP7mDB/boy1.png",
         "posted_date": "2024-10-20",
         "reading_time": 5,
         "hashtags": ["AI", "Technology", "Future"]
     },
     {
         "id": 2,
-        "cover": "https://example.com/image2.jpg",
+        "cover": "https://i.ibb.co.com/KNPqdDV/2.png",
         "title": "The Art of Minimalist Design",
         "author": "john smith",
-        "author_img": "https://example.com/author2.jpg",
+        "author_img": "https://i.ibb.co.com/mqG3xGn/boy2.jpg",
         "posted_date": "2024-10-22",
         "reading_time": 7,
         "hashtags": ["Design", "Minimalism", "Art"]
     },
     {
         "id": 3,
-        "cover": "https://example.com/image3.jpg",
+        "cover": "https://i.ibb.co.com/K98kDyK/3.png",
         "title": "How to Start a Successful Blog",
         "author": "alice johnson",
-        "author_img": "https://example.com/author3.jpg",
+        "author_img": "https://i.ibb.co.com/gdVNkHM/girl1.jpg",
         "posted_date": "2024-10-24",
         "reading_time": 6,
         "hashtags": ["Blogging", "Writing", "Marketing"]
     },
     {
         "id": 4,
-        "cover": "https://example.com/image4.jpg",
+        "cover": "https://i.ibb.co.com/12S5Xrb/4.jpg",
         "title": "Top 10 Travel Destinations for 2024",
         "author": "michael lee",
-        "author_img": "https://example.com/author4.jpg",
+        "author_img": "https://i.ibb.co.com/f0Br1X7/girl2.jpg",
         "posted_date": "2024-10-25",
         "reading_time": 8,
         "hashtags": ["Travel", "Destinations", "Adventure"]
-    },
-    {
-        "id": 5,
-        "cover": "https://example.com/image5.jpg",
-        "title": "A Guide to Personal Finance for Beginners",
-        "author": "emma wilson",
-        "author_img": "https://example.com/author5.jpg",
-        "posted_date": "2024-10-26",
-        "reading_time": 10,
-        "hashtags": ["Finance", "Personal Finance", "Money Management"]
     }
 ]

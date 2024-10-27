@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.blog{
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+}

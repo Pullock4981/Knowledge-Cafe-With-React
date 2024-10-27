@@ -2,8 +2,8 @@
 
 const Bookmarks = () => {
     return (
-        <div className="md:w-1/3 text-center border">
-            <h2>Bookmarks</h2>
+        <div className="md:w-1/3 text-center">
+            <h2 className="blog font-semibold text-lg">Bookmarks</h2>
         </div>
     );
 };
